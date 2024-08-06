@@ -1,0 +1,1963 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81c141b47ab4aee9ea1454818ce73d3, type: 3}
+  m_Name: CodeGenerator
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: methodsDataDic
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CodeGenerator+MethodDatas,
+        PrimeTween.Editor]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.Light
+    - Name: $v
+      Entry: 7
+      Data: 2|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Intensity_Light
+    - Name: methodName
+      Entry: 1
+      Data: Intensity
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Light
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: intensity
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOIntensity
+    - Name: dependency
+      Entry: 3
+      Data: 7
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Color_Light
+    - Name: methodName
+      Entry: 1
+      Data: Color
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Light
+    - Name: propertyType
+      Entry: 3
+      Data: 2
+    - Name: propertyName
+      Entry: 1
+      Data: color
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOColor
+    - Name: dependency
+      Entry: 3
+      Data: 7
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.Camera
+    - Name: $v
+      Entry: 7
+      Data: 6|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 8|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OrthographicSize_Camera
+    - Name: methodName
+      Entry: 1
+      Data: OrthographicSize
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Camera
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: orthographicSize
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOOrthoSize
+    - Name: dependency
+      Entry: 3
+      Data: 5
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: FieldOfView_Camera
+    - Name: methodName
+      Entry: 1
+      Data: FieldOfView
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Camera
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: fieldOfView
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOFieldOfView
+    - Name: dependency
+      Entry: 3
+      Data: 5
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: $v
+      Entry: 7
+      Data: 10|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: 
+      Entry: 7
+      Data: 12|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: LocalRotation_Transform
+    - Name: methodName
+      Entry: 1
+      Data: LocalRotation
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 4
+    - Name: propertyName
+      Entry: 1
+      Data: localEulerAngles
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Rotation_Transform
+    - Name: methodName
+      Entry: 1
+      Data: Rotation
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 4
+    - Name: propertyName
+      Entry: 1
+      Data: eulerAngles
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Position_Transform
+    - Name: methodName
+      Entry: 1
+      Data: Position
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 4
+    - Name: propertyName
+      Entry: 1
+      Data: position
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOMove
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: PositionX_Transform
+    - Name: methodName
+      Entry: 1
+      Data: PositionX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: position.x
+    - Name: propertySetter
+      Entry: 1
+      Data: position = _target.position.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOMoveX
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: PositionY_Transform
+    - Name: methodName
+      Entry: 1
+      Data: PositionY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: position.y
+    - Name: propertySetter
+      Entry: 1
+      Data: position = _target.position.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOMoveY
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: PositionZ_Transform
+    - Name: methodName
+      Entry: 1
+      Data: PositionZ
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: position.z
+    - Name: propertySetter
+      Entry: 1
+      Data: position = _target.position.WithComponent(2, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOMoveZ
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 18|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: LocalPosition_Transform
+    - Name: methodName
+      Entry: 1
+      Data: LocalPosition
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 4
+    - Name: propertyName
+      Entry: 1
+      Data: localPosition
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOLocalMove
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: LocalPositionX_Transform
+    - Name: methodName
+      Entry: 1
+      Data: LocalPositionX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: localPosition.x
+    - Name: propertySetter
+      Entry: 1
+      Data: localPosition = _target.localPosition.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOLocalMoveX
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 20|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: LocalPositionY_Transform
+    - Name: methodName
+      Entry: 1
+      Data: LocalPositionY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: localPosition.y
+    - Name: propertySetter
+      Entry: 1
+      Data: localPosition = _target.localPosition.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOLocalMoveY
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: LocalPositionZ_Transform
+    - Name: methodName
+      Entry: 1
+      Data: LocalPositionZ
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: localPosition.z
+    - Name: propertySetter
+      Entry: 1
+      Data: localPosition = _target.localPosition.WithComponent(2, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOLocalMoveZ
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Rotation_Transform
+    - Name: methodName
+      Entry: 1
+      Data: Rotation
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 6
+    - Name: propertyName
+      Entry: 1
+      Data: rotation
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DORotateQuaternion
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: LocalRotation_Transform
+    - Name: methodName
+      Entry: 1
+      Data: LocalRotation
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 6
+    - Name: propertyName
+      Entry: 1
+      Data: localRotation
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOLocalRotateQuaternion
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Scale_Transform
+    - Name: methodName
+      Entry: 1
+      Data: Scale
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 4
+    - Name: propertyName
+      Entry: 1
+      Data: localScale
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOScale
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: ScaleX_Transform
+    - Name: methodName
+      Entry: 1
+      Data: ScaleX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: localScale.x
+    - Name: propertySetter
+      Entry: 1
+      Data: localScale = _target.localScale.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOScaleX
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: ScaleY_Transform
+    - Name: methodName
+      Entry: 1
+      Data: ScaleY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: localScale.y
+    - Name: propertySetter
+      Entry: 1
+      Data: localScale = _target.localScale.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOScaleY
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: ScaleZ_Transform
+    - Name: methodName
+      Entry: 1
+      Data: ScaleZ
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Transform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: localScale.z
+    - Name: propertySetter
+      Entry: 1
+      Data: localScale = _target.localScale.WithComponent(2, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOScaleZ
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: $v
+      Entry: 7
+      Data: 28|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 19
+    - Name: 
+      Entry: 7
+      Data: 30|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: PivotX_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: PivotX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: pivot[0]
+    - Name: propertySetter
+      Entry: 1
+      Data: pivot = _target.pivot.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOPivotX
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: PivotY_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: PivotY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: pivot[1]
+    - Name: propertySetter
+      Entry: 1
+      Data: pivot = _target.pivot.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOPivotY
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Pivot_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: Pivot
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: pivot
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOPivot
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchorMax_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchorMax
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: anchorMax
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorMax
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchorMin_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchorMin
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: anchorMin
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorMin
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPosition3D_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPosition3D
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 4
+    - Name: propertyName
+      Entry: 1
+      Data: anchoredPosition3D
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPos3D
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPosition3DX_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPosition3DX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: anchoredPosition3D[0]
+    - Name: propertySetter
+      Entry: 1
+      Data: anchoredPosition3D = _target.anchoredPosition3D.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPos3DX
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 37|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPosition3DY_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPosition3DY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: anchoredPosition3D[1]
+    - Name: propertySetter
+      Entry: 1
+      Data: anchoredPosition3D = _target.anchoredPosition3D.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPos3DY
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPosition3DZ_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPosition3DZ
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: anchoredPosition3D[2]
+    - Name: propertySetter
+      Entry: 1
+      Data: anchoredPosition3D = _target.anchoredPosition3D.WithComponent(2, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPos3DZ
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 39|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPosition_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPosition
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: anchoredPosition
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPos
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPositionX_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPositionX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: anchoredPosition.x
+    - Name: propertySetter
+      Entry: 1
+      Data: anchoredPosition = _target.anchoredPosition.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPosX
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 41|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: AnchoredPositionY_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: AnchoredPositionY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: anchoredPosition.y
+    - Name: propertySetter
+      Entry: 1
+      Data: anchoredPosition = _target.anchoredPosition.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOAnchorPosY
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: SizeDelta_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: SizeDelta
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: sizeDelta
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOSizeDelta
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 43|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OffsetMin_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: OffsetMin
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: offsetMin
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OffsetMinX_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: OffsetMinX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: offsetMin[0]
+    - Name: propertySetter
+      Entry: 1
+      Data: offsetMin = _target.offsetMin.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OffsetMinY_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: OffsetMinY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: offsetMin[1]
+    - Name: propertySetter
+      Entry: 1
+      Data: offsetMin = _target.offsetMin.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OffsetMax_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: OffsetMax
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: offsetMax
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OffsetMaxX_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: OffsetMaxX
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: offsetMax[0]
+    - Name: propertySetter
+      Entry: 1
+      Data: offsetMax = _target.offsetMax.WithComponent(0, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 48|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: OffsetMaxY_RectTransform
+    - Name: methodName
+      Entry: 1
+      Data: OffsetMaxY
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.RectTransform
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: offsetMax[1]
+    - Name: propertySetter
+      Entry: 1
+      Data: offsetMax = _target.offsetMax.WithComponent(1, val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: 
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.SpriteRenderer
+    - Name: $v
+      Entry: 7
+      Data: 49|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 50|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 51|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Color_SpriteRenderer
+    - Name: methodName
+      Entry: 1
+      Data: Color
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.SpriteRenderer
+    - Name: propertyType
+      Entry: 3
+      Data: 2
+    - Name: propertyName
+      Entry: 1
+      Data: color
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOColor
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Alpha_SpriteRenderer
+    - Name: methodName
+      Entry: 1
+      Data: Alpha
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.SpriteRenderer
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: color.a
+    - Name: propertySetter
+      Entry: 1
+      Data: color = _target.color.WithAlpha(val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOFade
+    - Name: dependency
+      Entry: 3
+      Data: 0
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.Material
+    - Name: $v
+      Entry: 7
+      Data: 53|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 55|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Color_Material
+    - Name: methodName
+      Entry: 1
+      Data: Color
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Material
+    - Name: propertyType
+      Entry: 3
+      Data: 2
+    - Name: propertyName
+      Entry: 1
+      Data: color
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOColor
+    - Name: dependency
+      Entry: 3
+      Data: 6
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Alpha_Material
+    - Name: methodName
+      Entry: 1
+      Data: Alpha
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Material
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: 
+    - Name: propertyGetter
+      Entry: 1
+      Data: color.a
+    - Name: propertySetter
+      Entry: 1
+      Data: color = _target.color.WithAlpha(val)
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOFade
+    - Name: dependency
+      Entry: 3
+      Data: 6
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 57|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: MainTextureOffset_Material
+    - Name: methodName
+      Entry: 1
+      Data: MainTextureOffset
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Material
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: mainTextureOffset
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOOffset
+    - Name: dependency
+      Entry: 3
+      Data: 6
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: MainTextureScale_Material
+    - Name: methodName
+      Entry: 1
+      Data: MainTextureScale
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.Material
+    - Name: propertyType
+      Entry: 3
+      Data: 3
+    - Name: propertyName
+      Entry: 1
+      Data: mainTextureScale
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOTiling
+    - Name: dependency
+      Entry: 3
+      Data: 6
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.CanvasGroup
+    - Name: $v
+      Entry: 7
+      Data: 59|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 60|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 61|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Alpha_CanvasGroup
+    - Name: methodName
+      Entry: 1
+      Data: Alpha
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.CanvasGroup
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: alpha
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOFade
+    - Name: dependency
+      Entry: 3
+      Data: 1
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: UnityEngine.AudioSource
+    - Name: $v
+      Entry: 7
+      Data: 62|CodeGenerator+MethodDatas, PrimeTween.Editor
+    - Name: Datas
+      Entry: 7
+      Data: 63|System.Collections.Generic.List`1[[MethodGenerationData, PrimeTween.Editor]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 64|MethodGenerationData, PrimeTween.Editor
+    - Name: description
+      Entry: 1
+      Data: Volume_AudioSource
+    - Name: methodName
+      Entry: 1
+      Data: Volume
+    - Name: targetType
+      Entry: 1
+      Data: UnityEngine.AudioSource
+    - Name: propertyType
+      Entry: 3
+      Data: 1
+    - Name: propertyName
+      Entry: 1
+      Data: volume
+    - Name: propertyGetter
+      Entry: 1
+      Data: 
+    - Name: propertySetter
+      Entry: 1
+      Data: 
+    - Name: dotweenMethodName
+      Entry: 1
+      Data: DOFade
+    - Name: dependency
+      Entry: 3
+      Data: 2
+    - Name: generateOnlyOverloads
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  methodsScript: {fileID: 11500000, guid: 6b0ccf2ffa7a48d8b1cbeb16776f6e11, type: 3}
+  dotweenMethodsScript: {fileID: 11500000, guid: 14fdfd4a66234bdd8d35686ec3a76122, type: 3}
+  editorUtilsScript: {fileID: 11500000, guid: 7f3bfd9524c14644bfbab698076886f3, type: 3}
+  tweenAnimationScript: {fileID: 11500000, guid: f97bf845a36240c79ad9d2828e4889ba, type: 3}

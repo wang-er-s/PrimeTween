@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/PrimeTween/1.1.19/Examples/BasicExample.unity
+    guid: c506d5c0ca3694ba0b7c40c5c180d5b1
   m_configObjects: {}
